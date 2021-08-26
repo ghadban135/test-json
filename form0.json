@@ -1,0 +1,133 @@
+{
+	"fields": {
+		"name": {
+			"type": "input",
+			"label": "name",
+			"placeholder": "name.placeholder",
+			"value": "test"
+		},
+		"address.billing.address1": {
+			"type": "select",
+			"label": "address.billing.address1",
+			"placeholder": "address.billing.address1.placeholder",
+			"value": "TOP",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"address.billing.postalcode": {
+			"type": "inputNumber",
+			"label": "address.billing.postalcode",
+			"placeholder": "address.billing.postalcode.placeholder",
+			"value": 8795
+		},
+		"address.shipping.address1": {
+			"type": "checkboxGroup",
+			"label": "address.shipping.address1",
+			"placeholder": "address.shipping.address1.placeholder",
+			"value": "TOP",
+			"options": ["test1", "test2"]
+		},
+		"address.shipping.postalcode": {
+			"type": "input",
+			"label": "address.shipping.postalcode",
+			"placeholder": "address.shipping.postalcode.placeholder",
+			"value": 78456
+		},
+		"address2[0].billing.address1": {
+			"type": "inputNumber",
+			"label": "address2[0].billing.address1",
+			"placeholder": "address2[0].billing.address1.placeholder",
+			"value": ""
+		},
+		"address2[1].billing.address1": {
+			"type": "mentions",
+			"label": "address2[1].billing.address1",
+			"placeholder": "address2[1].billing.address1.placeholder",
+			"value": ""
+		},
+		"address2[0].billing.postalcode": {
+			"type": "timePicker",
+			"label": "address2[0].billing.postalcode",
+			"placeholder": "address2[0].billing.postalcode.placeholder",
+			"value": 2564
+		},
+		"address2[0].shipping.address1": {
+			"type": "textArea",
+			"label": "address2[0].shipping.address1",
+			"placeholder": "address2[0].shipping.address1.placeholder",
+			"value": "TOP85"
+		},
+		"address2[0].shipping.postalcode": {
+			"type": "dateRangePicker",
+			"label": "address2[0].shipping.postalcode",
+			"placeholder": "address2[0].shipping.postalcode.placeholder",
+			"value": ""
+		}
+	},
+	"validation": {
+		"name": { "type": "string", "required": true },
+		"address": {
+			"type": "object",
+			"properties": {
+				"billing": {
+					"type": "object",
+					"properties": {
+						"address1": {
+							"type": "string"
+						},
+						"postalcode": {
+							"type": "string"
+						}
+					},
+					"required": ["postalcode"]
+				},
+				"shipping": {
+					"type": "object",
+					"properties": {
+						"address1": {
+							"type": "string"
+						},
+						"postalcode": {
+							"type": "string"
+						}
+					},
+					"required": ["address1", "postalcode"]
+				}
+			}
+		},
+		"address2": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"billing": {
+						"type": "object",
+						"properties": {
+							"address1": {
+								"type": "number"
+							},
+							"postalcode": {
+								"type": "string"
+							}
+						},
+						"required": ["address1"]
+					},
+					"shipping": {
+						"type": "object",
+						"properties": {
+							"address1": {
+								"type": "string"
+							},
+							"postalcode": {
+								"type": "string"
+							}
+						},
+						"required": []
+					}
+				}
+			}
+		}
+	}
+}

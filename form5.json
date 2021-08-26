@@ -1,0 +1,940 @@
+{
+	"fields": {
+		"companies.clients[0].personal_info.first_name": {
+			"type": "input",
+			"label": "companies.clients[0].personal_info.first_name",
+			"placeholder": "companies.clients[0].personal_info.first_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[0].personal_info.last_name": {
+			"type": "input",
+			"label": "companies.clients[0].personal_info.last_name",
+			"placeholder": "companies.clients[0].personal_info.last_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[0].personal_info.date_of_birth": {
+			"type": "datePicker",
+			"label": "companies.clients[0].personal_info.date_of_birth",
+			"placeholder": "companies.clients[0].personal_info.date_of_birth.placeholder",
+			"value": ""
+		},
+		"companies.clients[0].personal_info.marital_status": {
+			"type": "select",
+			"label": "companies.clients[0].personal_info.marital_status",
+			"placeholder": "companies.clients[0].personal_info.marital_status.placeholder",
+			"value": "",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[0].personal_info.description": {
+			"type": "textArea",
+			"label": "companies.clients[0].personal_info.description",
+			"placeholder": "companies.clients[0].personal_info.description.placeholder",
+			"value": ""
+		},
+		"companies.clients[0].personal_info.address.state.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.clients[0].personal_info.address.state.postalcode",
+			"placeholder": "companies.clients[0].personal_info.address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"companies.clients[0].personal_info.address.state.city": {
+			"type": "input",
+			"label": "companies.clients[0].personal_info.address.state.city",
+			"placeholder": "companies.clients[0].personal_info.address.state.city.placeholder",
+			"value": "paris"
+		},
+		"companies.clients[0].personal_info.address.state.region": {
+			"type": "input",
+			"label": "companies.clients[0].personal_info.address.state.region",
+			"placeholder": "companies.clients[0].personal_info.address.state.region.placeholder",
+			"value": "test"
+		},
+		"companies.clients[0].personal_info.address.state.country": {
+			"type": "select",
+			"label": "companies.clients[0].personal_info.address.state.country",
+			"placeholder": "companies.clients[0].personal_info.address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[0].payment_amount": {
+			"type": "inputNumber",
+			"label": "companies.clients[0].payment_amount",
+			"placeholder": "companies.clients[0].payment_amount.placeholder",
+			"value": ""
+		},
+		"companies.clients[1].personal_info.first_name": {
+			"type": "input",
+			"label": "companies.clients[1].personal_info.first_name",
+			"placeholder": "companies.clients[1].personal_info.first_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[1].personal_info.last_name": {
+			"type": "input",
+			"label": "companies.clients[1].personal_info.last_name",
+			"placeholder": "companies.clients[1].personal_info.last_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[1].personal_info.date_of_birth": {
+			"type": "datePicker",
+			"label": "companies.clients[1].personal_info.date_of_birth",
+			"placeholder": "companies.clients[1].personal_info.date_of_birth.placeholder",
+			"value": ""
+		},
+		"companies.clients[1].personal_info.marital_status": {
+			"type": "select",
+			"label": "companies.clients[1].personal_info.marital_status",
+			"placeholder": "companies.clients[1].personal_info.marital_status.placeholder",
+			"value": "",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[1].personal_info.description": {
+			"type": "textArea",
+			"label": "companies.clients[1].personal_info.description",
+			"placeholder": "companies.clients[1].personal_info.description.placeholder",
+			"value": ""
+		},
+		"companies.clients[1].personal_info.address.state.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.clients[1].personal_info.address.state.postalcode",
+			"placeholder": "companies.clients[1].personal_info.address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"companies.clients[1].personal_info.address.state.city": {
+			"type": "input",
+			"label": "companies.clients[1].personal_info.address.state.city",
+			"placeholder": "companies.clients[1].personal_info.address.state.city.placeholder",
+			"value": "paris"
+		},
+		"companies.clients[1].personal_info.address.state.region": {
+			"type": "input",
+			"label": "companies.clients[1].personal_info.address.state.region",
+			"placeholder": "companies.clients[1].personal_info.address.state.region.placeholder",
+			"value": "test"
+		},
+		"companies.clients[1].personal_info.address.state.country": {
+			"type": "select",
+			"label": "companies.clients[1].personal_info.address.state.country",
+			"placeholder": "companies.clients[1].personal_info.address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[1].payment_amount": {
+			"type": "inputNumber",
+			"label": "companies.clients[1].payment_amount",
+			"placeholder": "companies.clients[1].payment_amount.placeholder",
+			"value": ""
+		},
+		"companies.clients[2].personal_info.first_name": {
+			"type": "input",
+			"label": "companies.clients[2].personal_info.first_name",
+			"placeholder": "companies.clients[2].personal_info.first_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[2].personal_info.last_name": {
+			"type": "input",
+			"label": "companies.clients[2].personal_info.last_name",
+			"placeholder": "companies.clients[2].personal_info.last_name.placeholder",
+			"value": "test"
+		},
+		"companies.clients[2].personal_info.date_of_birth": {
+			"type": "datePicker",
+			"label": "companies.clients[2].personal_info.date_of_birth",
+			"placeholder": "companies.clients[2].personal_info.date_of_birth.placeholder",
+			"value": ""
+		},
+		"companies.clients[2].personal_info.marital_status": {
+			"type": "select",
+			"label": "companies.clients[2].personal_info.marital_status",
+			"placeholder": "companies.clients[2].personal_info.marital_status.placeholder",
+			"value": "",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[2].personal_info.description": {
+			"type": "textArea",
+			"label": "companies.clients[2].personal_info.description",
+			"placeholder": "companies.clients[2].personal_info.description.placeholder",
+			"value": ""
+		},
+		"companies.clients[2].personal_info.address.state.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.clients[2].personal_info.address.state.postalcode",
+			"placeholder": "companies.clients[2].personal_info.address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"companies.clients[2].personal_info.address.state.city": {
+			"type": "input",
+			"label": "companies.clients[2].personal_info.address.state.city",
+			"placeholder": "companies.clients[2].personal_info.address.state.city.placeholder",
+			"value": "paris"
+		},
+		"companies.clients[2].personal_info.address.state.region": {
+			"type": "input",
+			"label": "companies.clients[2].personal_info.address.state.region",
+			"placeholder": "companies.clients[2].personal_info.address.state.region.placeholder",
+			"value": "test"
+		},
+		"companies.clients[2].personal_info.address.state.country": {
+			"type": "select",
+			"label": "companies.clients[2].personal_info.address.state.country",
+			"placeholder": "companies.clients[2].personal_info.address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.clients[2].payment_amount": {
+			"type": "inputNumber",
+			"label": "companies.clients[2].payment_amount",
+			"placeholder": "companies.clients[2].payment_amount.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.first_name": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.first_name",
+			"placeholder": "companies.employees[0].personal_info.first_name.placeholder",
+			"value": "test"
+		},
+		"companies.employees[0].personal_info.last_name": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.last_name",
+			"placeholder": "companies.employees[0].personal_info.last_name.placeholder",
+			"value": "test"
+		},
+		"companies.employees[0].personal_info.date_of_birth": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.date_of_birth",
+			"placeholder": "companies.employees[0].personal_info.date_of_birth.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.marital_status": {
+			"type": "select",
+			"label": "companies.employees[0].personal_info.marital_status",
+			"placeholder": "companies.employees[0].personal_info.marital_status.placeholder",
+			"value": "",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[0].personal_info.description": {
+			"type": "textArea",
+			"label": "companies.employees[0].personal_info.description",
+			"placeholder": "companies.employees[0].personal_info.description.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.address.state.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.address.state.postalcode",
+			"placeholder": "companies.employees[0].personal_info.address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"companies.employees[0].personal_info.address.state.city": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.address.state.city",
+			"placeholder": "companies.employees[0].personal_info.address.state.city.placeholder",
+			"value": "paris"
+		},
+		"companies.employees[0].personal_info.address.state.region": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.address.state.region",
+			"placeholder": "companies.employees[0].personal_info.address.state.region.placeholder",
+			"value": "test"
+		},
+		"companies.employees[0].personal_info.address.state.country": {
+			"type": "select",
+			"label": "companies.employees[0].personal_info.address.state.country",
+			"placeholder": "companies.employees[0].personal_info.address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[0].personal_info.experience[0].company.name": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[0].company.name",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[0].personal_info.experience[0].company.country": {
+			"type": "select",
+			"label": "companies.employees[0].personal_info.experience[0].company.country",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[0].personal_info.experience[0].company.street": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[0].company.street",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].company.city": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[0].company.city",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[0].company.postalcode",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].company.email": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[0].company.email",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[0].company.phone_number",
+			"placeholder": "companies.employees[0].personal_info.experience[0].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[0].start_date",
+			"placeholder": "companies.employees[0].personal_info.experience[0].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[0].end_date",
+			"placeholder": "companies.employees[0].personal_info.experience[0].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[0].title_position": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[0].title_position",
+			"placeholder": "companies.employees[0].personal_info.experience[0].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[0].personal_info.experience[1].company.name": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[1].company.name",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[0].personal_info.experience[1].company.country": {
+			"type": "select",
+			"label": "companies.employees[0].personal_info.experience[1].company.country",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[0].personal_info.experience[1].company.street": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[1].company.street",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].company.city": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[1].company.city",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[1].company.postalcode",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].company.email": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[1].company.email",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[1].company.phone_number",
+			"placeholder": "companies.employees[0].personal_info.experience[1].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[1].start_date",
+			"placeholder": "companies.employees[0].personal_info.experience[1].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[1].end_date",
+			"placeholder": "companies.employees[0].personal_info.experience[1].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[1].title_position": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[1].title_position",
+			"placeholder": "companies.employees[0].personal_info.experience[1].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[0].personal_info.experience[2].company.name": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[2].company.name",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[0].personal_info.experience[2].company.country": {
+			"type": "select",
+			"label": "companies.employees[0].personal_info.experience[2].company.country",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[0].personal_info.experience[2].company.street": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[2].company.street",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].company.city": {
+			"type": "input",
+			"label": "experience[2].company.city",
+			"placeholder": "experience[2].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[2].company.postalcode",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].company.email": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[2].company.email",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].personal_info.experience[2].company.phone_number",
+			"placeholder": "companies.employees[0].personal_info.experience[2].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[2].start_date",
+			"placeholder": "companies.employees[0].personal_info.experience[2].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[0].personal_info.experience[2].end_date",
+			"placeholder": "companies.employees[0].personal_info.experience[2].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[0].personal_info.experience[2].title_position": {
+			"type": "input",
+			"label": "companies.employees[0].personal_info.experience[2].title_position",
+			"placeholder": "companies.employees[0].personal_info.experience[2].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[0].team.name": {
+			"type": "input",
+			"label": "companies.employees[0].team.name",
+			"placeholder": "companies.employees[0].team.name.placeholder",
+			"value": "main team"
+		},
+		"companies.employees[0].team.leader_name": {
+			"type": "input",
+			"label": "companies.employees[0].team.leader_name",
+			"placeholder": "companies.employees[0].team.leader_name.placeholder",
+			"value": "alex"
+		},
+		"companies.employees[0].team.number": {
+			"type": "inputNumber",
+			"label": "companies.employees[0].team.number",
+			"placeholder": "companies.employees[0].team.number.placeholder",
+			"value": 4
+		},
+		"companies.employees[0].team.department": {
+			"type": "input",
+			"label": "companies.employees[0].team.department",
+			"placeholder": "companies.employees[0].team.department.placeholder",
+			"value": "engineering"
+		},
+		"companies.employees[1].personal_info.first_name": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.first_name",
+			"placeholder": "companies.employees[1].personal_info.first_name.placeholder",
+			"value": "test"
+		},
+		"companies.employees[1].personal_info.last_name": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.last_name",
+			"placeholder": "companies.employees[1].personal_info.last_name.placeholder",
+			"value": "test"
+		},
+		"companies.employees[1].personal_info.date_of_birth": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.date_of_birth",
+			"placeholder": "companies.employees[1].personal_info.date_of_birth.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.marital_status": {
+			"type": "select",
+			"label": "companies.employees[1].personal_info.marital_status",
+			"placeholder": "companies.employees[1].personal_info.marital_status.placeholder",
+			"value": "",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[1].personal_info.description": {
+			"type": "textArea",
+			"label": "companies.employees[1].personal_info.description",
+			"placeholder": "companies.employees[1].personal_info.description.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.address.state.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.address.state.postalcode",
+			"placeholder": "companies.employees[1].personal_info.address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"companies.employees[1].personal_info.address.state.city": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.address.state.city",
+			"placeholder": "companies.employees[1].personal_info.address.state.city.placeholder",
+			"value": "paris"
+		},
+		"companies.employees[1].personal_info.address.state.region": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.address.state.region",
+			"placeholder": "companies.employees[1].personal_info.address.state.region.placeholder",
+			"value": "test"
+		},
+		"companies.employees[1].personal_info.address.state.country": {
+			"type": "select",
+			"label": "companies.employees[1].personal_info.address.state.country",
+			"placeholder": "companies.employees[1].personal_info.address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[1].personal_info.experience[0].company.name": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[0].company.name",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[1].personal_info.experience[0].company.country": {
+			"type": "select",
+			"label": "companies.employees[1].personal_info.experience[0].company.country",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[1].personal_info.experience[0].company.street": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[0].company.street",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].company.city": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[0].company.city",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[0].company.postalcode",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].company.email": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[0].company.email",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[0].company.phone_number",
+			"placeholder": "companies.employees[1].personal_info.experience[0].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[0].start_date",
+			"placeholder": "companies.employees[1].personal_info.experience[0].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[0].end_date",
+			"placeholder": "companies.employees[1].personal_info.experience[0].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[0].title_position": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[0].title_position",
+			"placeholder": "companies.employees[1].personal_info.experience[0].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[1].personal_info.experience[1].company.name": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[1].company.name",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[1].personal_info.experience[1].company.country": {
+			"type": "select",
+			"label": "companies.employees[1].personal_info.experience[1].company.country",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[1].personal_info.experience[1].company.street": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[1].company.street",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].company.city": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[1].company.city",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[1].company.postalcode",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].company.email": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[1].company.email",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[1].company.phone_number",
+			"placeholder": "companies.employees[1].personal_info.experience[1].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[1].start_date",
+			"placeholder": "companies.employees[1].personal_info.experience[1].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[1].end_date",
+			"placeholder": "companies.employees[1].personal_info.experience[1].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[1].title_position": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[1].title_position",
+			"placeholder": "companies.employees[1].personal_info.experience[1].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[1].personal_info.experience[2].company.name": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[2].company.name",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.name.placeholder",
+			"value": "company1"
+		},
+		"companies.employees[1].personal_info.experience[2].company.country": {
+			"type": "select",
+			"label": "companies.employees[1].personal_info.experience[2].company.country",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"companies.employees[1].personal_info.experience[2].company.street": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[2].company.street",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.street.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].company.city": {
+			"type": "input",
+			"label": "experience[2].company.city",
+			"placeholder": "experience[2].company.city.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].company.postalcode": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[2].company.postalcode",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.postalcode.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].company.email": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[2].company.email",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.email.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].company.phone_number": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].personal_info.experience[2].company.phone_number",
+			"placeholder": "companies.employees[1].personal_info.experience[2].company.phone_number.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].start_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[2].start_date",
+			"placeholder": "companies.employees[1].personal_info.experience[2].start_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].end_date": {
+			"type": "datePicker",
+			"label": "companies.employees[1].personal_info.experience[2].end_date",
+			"placeholder": "companies.employees[1].personal_info.experience[2].end_date.placeholder",
+			"value": ""
+		},
+		"companies.employees[1].personal_info.experience[2].title_position": {
+			"type": "input",
+			"label": "companies.employees[1].personal_info.experience[2].title_position",
+			"placeholder": "companies.employees[1].personal_info.experience[2].title_position.placeholder",
+			"value": "engineer"
+		},
+		"companies.employees[1].team.name": {
+			"type": "input",
+			"label": "companies.employees[1].team.name",
+			"placeholder": "companies.employees[1].team.name.placeholder",
+			"value": "main team"
+		},
+		"companies.employees[1].team.leader_name": {
+			"type": "input",
+			"label": "companies.employees[1].team.leader_name",
+			"placeholder": "companies.employees[1].team.leader_name.placeholder",
+			"value": "alex"
+		},
+		"companies.employees[1].team.number": {
+			"type": "inputNumber",
+			"label": "companies.employees[1].team.number",
+			"placeholder": "companies.employees[1].team.number.placeholder",
+			"value": 4
+		},
+		"companies.employees[1].team.department": {
+			"type": "input",
+			"label": "companies.employees[1].team.department",
+			"placeholder": "companies.employees[1].team.department.placeholder",
+			"value": "engineering"
+		}
+	},
+	"validation": {
+		"companies": {
+			"type": "object",
+			"properties": {
+				"clients": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"personal_info": {
+								"type": "object",
+								"properties": {
+									"first_name": {
+										"type": "string"
+									},
+									"last_name": {
+										"type": "string"
+									},
+									"date_of_birth": {
+										"type": "string"
+									},
+									"marital_status": {
+										"type": "string"
+									},
+									"description": {
+										"type": "string"
+									},
+									"address": {
+										"type": "object",
+										"properties": {
+											"state": {
+												"type": "object",
+												"properties": {
+													"postalcode": {
+														"type": "number"
+													},
+													"city": {
+														"type": "string"
+													},
+													"region": {
+														"type": "string"
+													},
+													"country": {
+														"type": "string"
+													}
+												},
+												"required": ["city"]
+											}
+										}
+									}
+								}
+							},
+							"payment_amount": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"employees": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"personal_info": {
+								"type": "object",
+								"properties": {
+									"first_name": {
+										"type": "string"
+									},
+									"last_name": {
+										"type": "string"
+									},
+									"date_of_birth": {
+										"type": "string"
+									},
+									"marital_status": {
+										"type": "string"
+									},
+									"description": {
+										"type": "string"
+									},
+									"address": {
+										"type": "object",
+										"properties": {
+											"state": {
+												"type": "object",
+												"properties": {
+													"postalcode": {
+														"type": "number"
+													},
+													"city": {
+														"type": "string"
+													},
+													"region": {
+														"type": "string"
+													},
+													"country": {
+														"type": "string"
+													}
+												},
+												"required": ["city"]
+											}
+										}
+									},
+									"experience": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"company": {
+													"type": "object",
+													"properties": {
+														"name": {
+															"type": "string"
+														},
+														"country": {
+															"type": "string"
+														},
+														"street": {
+															"type": "string"
+														},
+														"city": {
+															"type": "string"
+														},
+														"postalcode": {
+															"type": "number"
+														},
+														"email": {
+															"type": "string"
+														},
+														"phone_number": {
+															"type": "number"
+														}
+													},
+													"required": ["name", "country"]
+												},
+												"start_date": {
+													"type": "string"
+												},
+												"end_date": {
+													"type": "string"
+												},
+												"title_position": {
+													"type": "string"
+												}
+											},
+											"required": ["start_date", "end_date", "title_position"]
+										}
+									}
+								},
+								"required": ["first_name", "last_name", "date_of_birth"]
+							},
+							"team": {
+								"type": "object",
+								"properties": {
+									"name": {
+										"type": "string"
+									},
+									"leader_name": {
+										"type": "string"
+									},
+									"number": {
+										"type": "number"
+									},
+									"department": {
+										"type": "string"
+									}
+								},
+								"required": ["name", "department"]
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

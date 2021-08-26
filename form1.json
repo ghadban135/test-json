@@ -1,0 +1,315 @@
+{
+	"fields": {
+		"first_name": {
+			"type": "input",
+			"label": "first_name",
+			"placeholder": "first_name.placeholder",
+			"value": "test"
+		},
+		"last_name": {
+			"type": "input",
+			"label": "last_name",
+			"placeholder": "last_name.placeholder",
+			"value": "test"
+		},
+		"email": {
+			"type": "input",
+			"label": "email",
+			"placeholder": "email.placeholder",
+			"value": "test@test.com"
+		},
+		"address.state.postalcode": {
+			"type": "input",
+			"label": "address.state.postalcode",
+			"placeholder": "address.state.postalcode.placeholder",
+			"value": 35864
+		},
+		"address.state.city": {
+			"type": "input",
+			"label": "address.state.city",
+			"placeholder": "address.state.city.placeholder",
+			"value": "paris"
+		},
+		"address.state.region": {
+			"type": "input",
+			"label": "address.state.region",
+			"placeholder": "address.state.region.placeholder",
+			"value": "test"
+		},
+		"address.state.country": {
+			"type": "select",
+			"label": "address.state.country",
+			"placeholder": "address.state.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"experience[0].company.name": {
+			"type": "input",
+			"label": "experience[0].company.name",
+			"placeholder": "experience[0].company.name.placeholder",
+			"value": "company1"
+		},
+		"experience[0].company.country": {
+			"type": "select",
+			"label": "experience[0].company.country",
+			"placeholder": "experience[0].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"experience[0].company.street": {
+			"type": "input",
+			"label": "experience[0].company.street",
+			"placeholder": "experience[0].company.street.placeholder",
+			"value": ""
+		},
+		"experience[0].company.city": {
+			"type": "input",
+			"label": "experience[0].company.city",
+			"placeholder": "experience[0].company.city.placeholder",
+			"value": ""
+		},
+		"experience[0].company.postalcode": {
+			"type": "input",
+			"label": "experience[0].company.postalcode",
+			"placeholder": "experience[0].company.postalcode.placeholder",
+			"value": ""
+		},
+		"experience[0].company.email": {
+			"type": "input",
+			"label": "experience[0].company.email",
+			"placeholder": "experience[0].company.email.placeholder",
+			"value": ""
+		},
+		"experience[0].company.phone_number": {
+			"type": "input",
+			"label": "experience[0].company.phone_number",
+			"placeholder": "experience[0].company.phone_number.placeholder",
+			"value": ""
+		},
+		"experience[0].start_date": {
+			"type": "datePicker",
+			"label": "experience[0].start_date",
+			"placeholder": "experience[0].start_date.placeholder",
+			"value": ""
+		},
+		"experience[0].end_date": {
+			"type": "datePicker",
+			"label": "experience[0].end_date",
+			"placeholder": "experience[0].end_date.placeholder",
+			"value": ""
+		},
+		"experience[0].title_position": {
+			"type": "input",
+			"label": "experience[0].title_position",
+			"placeholder": "experience[0].title_position.placeholder",
+			"value": "engineer"
+		},
+		"experience[1].company.name": {
+			"type": "input",
+			"label": "experience[1].company.name",
+			"placeholder": "experience[1].company.name.placeholder",
+			"value": "company1"
+		},
+		"experience[1].company.country": {
+			"type": "select",
+			"label": "experience[1].company.country",
+			"placeholder": "experience[1].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"experience[1].company.street": {
+			"type": "input",
+			"label": "experience[1].company.street",
+			"placeholder": "experience[1].company.street.placeholder",
+			"value": ""
+		},
+		"experience[1].company.city": {
+			"type": "input",
+			"label": "experience[1].company.city",
+			"placeholder": "experience[1].company.city.placeholder",
+			"value": ""
+		},
+		"experience[1].company.postalcode": {
+			"type": "input",
+			"label": "experience[1].company.postalcode",
+			"placeholder": "experience[1].company.postalcode.placeholder",
+			"value": ""
+		},
+		"experience[1].company.email": {
+			"type": "input",
+			"label": "experience[1].company.email",
+			"placeholder": "experience[1].company.email.placeholder",
+			"value": ""
+		},
+		"experience[1].company.phone_number": {
+			"type": "input",
+			"label": "experience[1].company.phone_number",
+			"placeholder": "experience[1].company.phone_number.placeholder",
+			"value": ""
+		},
+		"experience[1].start_date": {
+			"type": "datePicker",
+			"label": "experience[1].start_date",
+			"placeholder": "experience[1].start_date.placeholder",
+			"value": ""
+		},
+		"experience[1].end_date": {
+			"type": "datePicker",
+			"label": "experience[1].end_date",
+			"placeholder": "experience[1].end_date.placeholder",
+			"value": ""
+		},
+		"experience[1].title_position": {
+			"type": "input",
+			"label": "experience[1].title_position",
+			"placeholder": "experience[1].title_position.placeholder",
+			"value": "engineer"
+		},
+		"experience[2].company.name": {
+			"type": "input",
+			"label": "experience[2].company.name",
+			"placeholder": "experience[2].company.name.placeholder",
+			"value": "company1"
+		},
+		"experience[2].company.country": {
+			"type": "select",
+			"label": "experience[2].company.country",
+			"placeholder": "experience[2].company.country.placeholder",
+			"value": "france",
+			"options": [
+				{ "label": "test1", "value": "test1" },
+				{ "label": "test2", "value": "test2" }
+			]
+		},
+		"experience[2].company.street": {
+			"type": "input",
+			"label": "experience[2].company.street",
+			"placeholder": "experience[2].company.street.placeholder",
+			"value": ""
+		},
+		"experience[2].company.city": {
+			"type": "input",
+			"label": "experience[2].company.city",
+			"placeholder": "experience[2].company.city.placeholder",
+			"value": ""
+		},
+		"experience[2].company.postalcode": {
+			"type": "input",
+			"label": "experience[2].company.postalcode",
+			"placeholder": "experience[2].company.postalcode.placeholder",
+			"value": ""
+		},
+		"experience[2].company.email": {
+			"type": "input",
+			"label": "experience[2].company.email",
+			"placeholder": "experience[2].company.email.placeholder",
+			"value": ""
+		},
+		"experience[2].company.phone_number": {
+			"type": "input",
+			"label": "experience[2].company.phone_number",
+			"placeholder": "experience[2].company.phone_number.placeholder",
+			"value": ""
+		},
+		"experience[2].start_date": {
+			"type": "datePicker",
+			"label": "experience[2].start_date",
+			"placeholder": "experience[2].start_date.placeholder",
+			"value": ""
+		},
+		"experience[2].end_date": {
+			"type": "datePicker",
+			"label": "experience[2].end_date",
+			"placeholder": "experience[2].end_date.placeholder",
+			"value": ""
+		},
+		"experience[2].title_position": {
+			"type": "input",
+			"label": "experience[2].title_position",
+			"placeholder": "experience[2].title_position.placeholder",
+			"value": "engineer"
+		}
+	},
+	"validation": {
+		"first_name": { "type": "string", "required": true },
+		"last_name": { "type": "string", "required": true },
+		"email": { "type": "string", "required": true },
+		"address": {
+			"type": "object",
+			"properties": {
+				"state": {
+					"type": "object",
+					"properties": {
+						"postalcode": {
+							"type": "number"
+						},
+						"city": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"country": {
+							"type": "string"
+						}
+					},
+					"required": ["city"]
+				}
+			}
+		},
+		"experience": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"company": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"country": {
+								"type": "string"
+							},
+							"street": {
+								"type": "string"
+							},
+							"city": {
+								"type": "string"
+							},
+							"postalcode": {
+								"type": "number"
+							},
+							"email": {
+								"type": "string"
+							},
+							"phone_number": {
+								"type": "number"
+							}
+						},
+						"required": ["name", "country"]
+					},
+					"start_date": {
+						"type": "string"
+					},
+					"end_date": {
+						"type": "string"
+					},
+					"title_position": {
+						"type": "string"
+					}
+				},
+				"required": ["start_date", "end_date", "title_position"]
+			}
+		}
+	}
+}
